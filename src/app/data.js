@@ -96,6 +96,7 @@ export const DataArray = [
     des: "I have made this project in 2023  to show thousands of students all over the world  how to make Reactjs/Nextjs portfolio. A portfolio website that will enable you to showcase your projects to your client or your employer The design of this portfolio was taken from a friend. It was carefully and professionally design to work in all devices",
     des1: "This project was made using, Ractjs, Nextjs, NodeMailer  and many more!",
     images: ["/portfolioimage.png", "/nextportfolio1.png"],
+    url:"https://fbattig.github.io/react-giftExpertApp/"
   },
   {
     title: "Personal Portfolio Website Using Reactjs",
@@ -103,6 +104,7 @@ export const DataArray = [
     des: "I have made this project in 2022  to show thousands of students all over the world  how to make Reactjs portfolio.",
     des1: "This project was made using, Ractjs, Nextjs, Expressjs, Nodejs, Rxjs Bootsrap and many more!",
     images: ["/reactportfolio.png"],
+    url:"https://fbattig.github.io/react-giftExpertApp/"
   },
   {
     title: "Management Consulting Company Web Design",
@@ -119,6 +121,7 @@ export const DataArray = [
     des1: "Aside from its gorgeous design, this website is backed by an outstanding plugin that allows owners and agencies to simply display different properties in the neighbourhood and create an online showcase in an appealing manner for home buyers and tenants..",
 
     images: ["/property1.png"],
+    url:"https://fbattig.github.io/react-giftExpertApp/"
   },
   {
     title: "Crypto Trading Website",
@@ -127,6 +130,7 @@ export const DataArray = [
     des1: "This project was built to enable clients all over the world to buy and sell their crypto.",
 
     images: ["/crypto5.png", "/crypto3.png", "/crypto1.png"],
+    url:"https://fbattig.github.io/react-giftExpertApp/"
   },
   {
     title: "Food Delivery Company WebSite",
@@ -135,5 +139,6 @@ export const DataArray = [
     des1: "This website's graphic design is fantastic. Animated sliders are painstakingly built and created in WordPress with Revolution Slider. All of the product photos are photo manipulations created in Adobe Photoshop.",
 
     images: ["/onboarding.jpg","/yumfood.jpg", "/deliveryguy.png"],
+    url:"https://fbattig.github.io/react-giftExpertApp/"
   },
 ];

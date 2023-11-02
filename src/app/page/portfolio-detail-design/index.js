@@ -93,13 +93,16 @@ export default function Index({ id, data, DataArray }) {
         <div className="col-span-12  lg:col-span-8 mb-20 scrol lg:px-0 sm:px-20">
           {data?.images.map((item) => (
             <div key={item} className="flex justify-center lg:justify-end  items-center">
+               <a href="https://fbattig.github.io/react-giftExpertApp/">
               <Image
                 src={item}
                 alt="portfolio photos"
                 height={100}
                 width={800}
                 className="mt-20 rounded-lg"
-              />
+                />
+                </a>
+             
             </div>
           ))}
         </div>
