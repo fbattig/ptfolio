@@ -188,7 +188,7 @@ const HomeComponent = () => {
                       </li>
                       <li>
                         As a full-stack developer, I have a comprehensive
-                        understanding of software development from the frontend
+                        understanding of software development from the frontend 
                         to the backend.
                       </li>
                       <li>
