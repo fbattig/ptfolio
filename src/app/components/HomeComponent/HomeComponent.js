@@ -149,17 +149,56 @@ const HomeComponent = () => {
                 className="m-auto container"
                 style={{ width: "100%", height: "100%" }}
               >
-              {<div style={{ width: "100%", height: "550px", backgroundColor:"white", fontSize:18, fontWeight:300, paddingLeft: "40px" }}>
-              <ul>
-                  <li>I am an experienced software developer with over 15 years of hands-on experience.</li>
-                  <li>Specializing in C# and .NET Framework/Core, I've used Microsoft Visual Studio to design and develop a wide array of applications.</li>
-                  <li>My expertise revolves around gathering user requirements, identifying and rectifying deficiencies, and designing effective solutions to address them.</li>
-                  <li>My skills extend to building web applications using technologies such as ASP.NET MVC/MVVC, Angular, Angular Material, React, HTML, CSS, and SASS. I have proven competence in creating RESTful web APIs and am well-versed in OpenID authentication systems.</li>
-                  <li>With a strong background in RDBMS, I've worked extensively with platforms like MS SQL Server and MYSQL.</li>
-                  <li>As a full-stack developer, I have a comprehensive understanding of software development from the frontend to the backend.</li>
-                  <li>Fluent in both English and Spanish, my linguistic ability adds additional value, facilitating communication in diverse teams.</li>
-              </ul>
-              </div>}
+                {
+                  <div
+                    style={{
+                      width: "100%",
+                      height: "550px",
+                      backgroundColor: "white",
+                      fontSize: 18,
+                      fontWeight: 300,
+                      paddingLeft: "40px",
+                    }}
+                  >
+                    <ul>
+                      <li>
+                        I am an experienced software developer with over 15
+                        years of hands-on experience.
+                      </li>
+                      <li>
+                        Specializing in C# and .NET Framework/Core, I've used
+                        Microsoft Visual Studio to design and develop a wide
+                        array of applications.
+                      </li>
+                      <li>
+                        My expertise revolves around gathering user
+                        requirements, identifying and rectifying deficiencies,
+                        and designing effective solutions to address them.
+                      </li>
+                      <li>
+                        My skills extend to building web applications using
+                        technologies such as ASP.NET MVC/MVVC, Angular, Angular
+                        Material, React, HTML, CSS, and SASS. I have proven
+                        competence in creating RESTful web APIs and am
+                        well-versed in OpenID authentication systems.
+                      </li>
+                      <li>
+                        With a strong background in RDBMS, I've worked
+                        extensively with platforms like MS SQL Server and MYSQL.
+                      </li>
+                      <li>
+                        As a full-stack developer, I have a comprehensive
+                        understanding of software development from the frontend
+                        to the backend.
+                      </li>
+                      <li>
+                        Fluent in both English and Spanish, my linguistic
+                        ability adds additional value, facilitating
+                        communication in diverse teams.
+                      </li>
+                    </ul>
+                  </div>
+                }
                 {/* <Image
                   className=""
                   alt="Full-Stack Developer"
