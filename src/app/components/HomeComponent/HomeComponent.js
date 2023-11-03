@@ -6,12 +6,10 @@ import { Hind } from "next/font/google";
 import Header from "../Header/Header";
 import Image from "next/image";
 
-
 const hind = Hind({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
-
 
 const HomeComponent = () => {
   var settings = {
@@ -99,7 +97,7 @@ const HomeComponent = () => {
   };
   return (
     <React.Fragment>
-      <Header/>
+      <Header />
       <div
         id="home"
         style={{
@@ -126,7 +124,7 @@ const HomeComponent = () => {
                   <h2
                     class={`text-[#223740] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}
                   >
-                   Full Stack Developer
+                    Full Stack Developer
                   </h2>
 
                   <a
@@ -147,10 +145,23 @@ const HomeComponent = () => {
             </div>
             {/*implemeting the profile image*/}
             <div className="md:col-span-7 col-span-12 md:pt-[130px] pt-[50px] md:bg-transparent bg-[#d9eef7]">
-              <div className="m-auto container"
-               style={{width: '100%', height: '100%'}}
+              <div
+                className="m-auto container"
+                style={{ width: "100%", height: "100%" }}
               >
-                <Image
+              {<div style={{ width: "80%", height: "550px", backgroundColor:"white", fontSize:18, fontWeight:300  }}>
+              <ul>
+                  <li>I am an experienced software developer with over 15 years of hands-on experience.</li>
+                  <li>Specializing in C# and .NET Framework/Core, I've used Microsoft Visual Studio to design and develop a wide array of applications.</li>
+                  <li>My expertise revolves around gathering user requirements, identifying and rectifying deficiencies, and designing effective solutions to address them.</li>
+                  <li>My skills extend to building web applications using technologies such as ASP.NET MVC/MVVC, Angular, Angular Material, React, HTML, CSS, and SASS. I have proven competence in creating RESTful web APIs and am well-versed in OpenID authentication systems.</li>
+                  <li>With a strong background in RDBMS, I've worked extensively with platforms like MS SQL Server and MYSQL.</li>
+                  <li>As a full-stack developer, I have a comprehensive understanding of software development from the frontend to the backend.</li>
+                  <li>My repertoire includes technical documentation of code functionalities, user testing methods, and mentoring other developers.</li>
+                  <li>Fluent in both English and Spanish, my linguistic ability adds additional value, facilitating communication in diverse teams.</li>
+              </ul>
+              </div>}
+                {/* <Image
                   className=""
                   alt="Full-Stack Developer"
                   src="/ehizeex.png"
@@ -160,7 +171,20 @@ const HomeComponent = () => {
                   height={0}
                   sizes="100vw"
                   style={{ width: '100%', height: 'auto' }} 
-                />
+                /> */}
+                {/* {
+                  <Image
+                    className=""
+                    alt="Full-Stack Developer"
+                    decoding="async"
+                    src=""
+                    data-nimg="intrinsic"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                } */}
               </div>
             </div>
           </div>
@@ -176,42 +200,66 @@ const HomeComponent = () => {
                 <div className="lg:py-10 py-10 md:py-6 cursor-all-scroll">
                   <Slider {...settings}>
                     <Image
-                     height={8}
-                     width={50}
-                     src="/mongodb.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/mongodb.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                    />
                     {/* <Image
                      height={8}
                      width={50}
                      src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                   */}
                     <Image
-                     height={8}
-                     width={50}
-                     src="/reactjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  " />
+                      height={8}
+                      width={50}
+                      src="/reactjs.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  "
+                    />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/nextjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
-                      <Image
-                     height={8}
-                     width={50}
-                     src="/CSharp.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  " />
+                      height={8}
+                      width={50}
+                      src="/nextjs.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                    />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/docker.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
-                  <Image
-                     height={8}
-                     width={50}
-                     src="/Net.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  " />
+                      height={8}
+                      width={50}
+                      src="/CSharp.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  "
+                    />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/sql.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/docker.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                    />
                     <Image
-                     height={3}
-                     width={50}
-                     src="/angular.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/Net.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  "
+                    />
+                    <Image
+                      height={8}
+                      width={50}
+                      src="/sql.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                    />
+                    <Image
+                      height={3}
+                      width={50}
+                      src="/angular.png"
+                      alt=""
+                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                    />
                   </Slider>
                 </div>
               </div>
