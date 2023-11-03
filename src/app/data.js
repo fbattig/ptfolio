@@ -96,7 +96,7 @@ export const DataArray = [
     des: "I have made this project in 2023  to show thousands of students all over the world  how to make Reactjs/Nextjs portfolio. A portfolio website that will enable you to showcase your projects to your client or your employer The design of this portfolio was taken from a friend. It was carefully and professionally design to work in all devices",
     des1: "This project was made using, Ractjs, Nextjs, NodeMailer  and many more!",
     images: ["/portfolioimage.png", "/nextportfolio1.png"],
-    url:"https://fbattig.github.io/react-giftExpertApp/"
+    url:"https://home-rentals-nh9it0bna.vercel.app/homes"
   },
   {
     title: "Personal Portfolio Website Using Reactjs",
